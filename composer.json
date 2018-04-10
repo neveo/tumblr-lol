@@ -1,0 +1,8 @@
+{
+    "require": {
+        "tumblr/tumblr": "^0.4.0",
+        "phpunit/phpunit": "^7.1",
+        "eher/oauth": "^1.0",
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
