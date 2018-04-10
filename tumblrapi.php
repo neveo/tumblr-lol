@@ -1,9 +1,7 @@
 <?php
 
-//Keys should be stored off the web root
-$consumerKey = 'fSPkU655oQ9PxgFqStyD1meOElA0MvON3ecjVU4UvVNmVrYcaS';
-$consumerSecret = '1P58S5DwqaKPAmzm2ZplXfwqQiLaLkNBrygos6PPnyB2rnfZdC';
-
+// Keys should be stored off the web root, you will need to create you key at
+// https://www.tumblr.com/oauth/apps
 $client = new Tumblr\API\Client($consumerKey,$consumerSecret);
 
 //Settinga an array to store results from API call
